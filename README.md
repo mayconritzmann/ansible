@@ -7,7 +7,7 @@ Minimal [Alpine Linux](https://alpinelinux.org/) image for running [Ansible](htt
 ### Build from git repository
 
 ```bash
-$ git clone https://github.com/mayconritzmann/ansible.git && cd ansible
+$ git clone https://github.com/mayconritzmann/ansible-alpine.git && cd ansible-alpine
 make build
 ```
 
