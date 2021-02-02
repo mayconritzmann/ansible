@@ -40,7 +40,7 @@ RUN set -euxo pipefail ;\
     pip3 install --no-cache --upgrade pip ;\
     pip3 install --no-cache --upgrade setuptools zabbix-api wheel ;\
     echo "===> Installing Ansible..." ;\
-    pip install --no-cache --upgrade ansible==${ANSIBLE_VERSION} ;\
+    pip3 install --no-cache --upgrade ansible==${ANSIBLE_VERSION} ;\
     echo "==> Adding Default Folders..." ;\
     mkdir -p /ansible /etc/ansible/ ~/.ssh ;\
     echo "===> Setting Default Configurations..." ;\
